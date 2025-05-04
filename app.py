@@ -41,7 +41,6 @@ tab1, tab2, tab3 = st.tabs(["🔍 Detect Deepfake", "📖 About", "❓ Help"])
 
 with tab1:
     st.markdown("Upload a **video file** (MP4) to detect if it's deepfaked using our AI model.")
-    st.set_option('server.maxUploadSize', 50)
 
     file = st.file_uploader("📤 Upload a video file", type=["mp4"], label_visibility="visible")
 
